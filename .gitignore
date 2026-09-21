@@ -1,0 +1,40 @@
+# Visual Studio 사용자 설정 및 캐시
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.VC.opendb
+*.ipch
+*.aps
+
+# 빌드 결과물
+**/Debug/
+**/Release/
+**/x64/
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.tlog
+*.log
+
+# AI 및 개발 도구 메타데이터
+.codex/
+.agents/
+**/.codex/
+**/.agents/
+**/CopilotIndices/
+
+# 임시 파일
+*.tmp
+*.bak
+*.userprefs
+
+# 프로젝트에서 사용하지 않는 대용량·참고 파일
+/Inversus/back.bmp
+/Inversus/Summer5.png
+/1109 넷겜플.PNG
+/1109 넷겜플.txt
+/background.bmp
+/cat.bmp

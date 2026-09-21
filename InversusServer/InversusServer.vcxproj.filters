@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files"><UniqueIdentifier>{CC97F57C-93EC-4F8C-9A95-EA15D2772D17}</UniqueIdentifier><Extensions>cpp;c</Extensions></Filter>
+    <Filter Include="Header Files"><UniqueIdentifier>{E3544C2E-04DE-4081-9C3A-D344FA2CA08B}</UniqueIdentifier><Extensions>h;hpp</Extensions></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientSession.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="GameServer.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="InversusServer.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClientSession.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="GameServer.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\Shared\PacketProtocol.h"><Filter>Header Files</Filter></ClInclude>
+  </ItemGroup>
+</Project>
